@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crystal Counter Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700,800" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 main-content">
+                <div class="header text-center">
+                    <h1>CRYSTAL CATCHER</h1>
+                </div>
+                <div id="gameInstructions" class="instructions">
+                    <h2>Here’s how it works:</h2>
+                    <p>Each of the four crystals below represents a random number. When the game starts, you’ll see another
+                        random number on the screen. Your job is to match that number by clicking on the crystals. Each time
+                        you click a crystal, its value will be added to your score. If your score goes above the random number,
+                        you lose. A new random number and new values for each crystal will generate each time you click “Play
+                        Game” so play until your heart's content.</p>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-primary btn-lg">Play Game</button>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div id="numberDisplay">
+                            <h2>MATCH THIS:</h2>
+                            <div id="randomNumber"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div id="scoreDisplay">
+                            <h2>SCORE:</h2>
+                            <div id="playerScore"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="crystal-buttons text-center">
+                    <img src="assets/images/lime-crystal.jpg">
+                    <img src="assets/images/blue-crystal.jpg">
+                    <img src="assets/images/teal-crystal.jpg">
+                    <img src="assets/images/orange-crystal.jpg">
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div id="winsDisplay">
+                            <h2>WINS:</h2>
+                            <div id="playerWins"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div id="LossDisplay">
+                            <h2>LOSSES:</h2>
+                            <div id="playerLosses"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

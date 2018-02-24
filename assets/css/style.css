@@ -1,0 +1,65 @@
+* {
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    background: #f2f5f8 url("../images/crystal-background.jpg") no-repeat fixed top;
+}
+
+.main-content {
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0;
+    box-shadow: 5px 10px 18px rgba(136, 136, 136, .2);
+}
+
+.header {
+    color: white;
+    background-color: #92b9db;
+    font-weight: 700;
+    padding: 10px;
+
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 3.5em;
+}
+
+.instructions {
+    background-color: #f2f5f8;
+    padding: 20px;
+    margin: 40px;
+}
+
+img {
+    margin: 10px;
+}
+
+#winsDisplay, #LossDisplay, #scoreDisplay, #numberDisplay {
+    margin: 40px;
+    padding: 20px;
+    background-color: pink;
+}
+
+#numberDisplay {
+    background-color: #c5e9f2;
+}
+
+#scoreDisplay {
+    background-color: #9ddeee;
+}
+
+footer {
+    background-color: #92b9db;
+    height: 10px;
+}
+
+#winsDisplay {
+    background-color: #fdc242;
+}
+
+#LossDisplay {
+    background-color: #fbd47f;
+}
