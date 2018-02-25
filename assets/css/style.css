@@ -9,7 +9,7 @@ body {
 .main-content {
     background-color: white;
     padding: 0;
-    box-shadow: 5px 10px 18px rgba(136, 136, 136, .2);
+    box-shadow: 0px 1px 10px 5px rgba(136, 136, 136, .2);
 }
 
 .header {
@@ -50,6 +50,10 @@ body {
 
 img {
     margin: 10px;
+}
+
+.crystal-buttons img:hover {
+    cursor: pointer;
 }
 
 #winsDisplay, #LossDisplay, #scoreDisplay, #numberDisplay {
