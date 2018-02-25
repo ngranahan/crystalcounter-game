@@ -8,8 +8,6 @@ body {
 
 .main-content {
     background-color: white;
-    margin-top: 60px;
-    margin-bottom: 60px;
     padding: 0;
     box-shadow: 5px 10px 18px rgba(136, 136, 136, .2);
 }
@@ -45,6 +43,11 @@ body {
     background-color: #92b9db; 
 }
 
+.btn-group-lg>.btn, .btn-lg:hover, .btn-group-lg>.btn, .btn-lg:active, .btn-group-lg>.btn, .btn-lg:focus {
+    background-color: #92b9db; 
+    border-color: #92b9db;
+}
+
 img {
     margin: 10px;
 }
@@ -69,11 +72,6 @@ img {
 
 #scoreDisplay, #LossDisplay {
     margin: 40px 40px 40px 10px;
-}
-
-footer {
-    background-color: #92b9db;
-    height: 10px;
 }
 
 #winsDisplay {

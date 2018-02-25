@@ -18,6 +18,7 @@ $(document).ready(function () {
     var playerWins = 0;
     var playerLosses = 0;
     var lossCalculated = false;
+    var winCalculated = false;
 
     $("#playGame").on("click", function () {
         startGame();
@@ -55,9 +56,10 @@ $(document).ready(function () {
         if (playerScore > 0 && playerScore === randomNumber) {
             playerWins++
             $("#playerWins").text(playerWins);
+            winCalculated = true;
         } else if (playerScore > randomNumber) {
             //increments playerLosses if loss hasn't been recorded yet for that round of play
-            if (lossCalculated === false) {
+            if (lossCalculated === false && winCalculated === false) {
                 playerLosses++
                 $("#playerLosses").text(playerLosses);
             }
@@ -71,6 +73,7 @@ $(document).ready(function () {
         //sets playerScore to 0 and lossCalculated to false to reset game play
         playerScore = 0;
         lossCalculated = false;
+        winCalculated = false;
 
         //get random number between 19 and 120 by calling randomIntBetween function
         randomNumber = randomIntBetween(19, 120);
