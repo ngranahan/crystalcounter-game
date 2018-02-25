@@ -19,6 +19,7 @@ body {
     background-color: #92b9db;
     font-weight: 700;
     padding: 10px;
+    margin-bottom: 40px;
 
 }
 
@@ -30,7 +31,18 @@ body {
 .instructions {
     background-color: #f2f5f8;
     padding: 20px;
-    margin: 40px;
+    margin: 0 40px 40px 40px;
+}
+
+.btn-primary {
+    background: none;
+    border-color: #92b9db;
+    color: #92b9db;
+    border-radius: 0;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    background-color: #92b9db; 
 }
 
 img {
@@ -38,9 +50,9 @@ img {
 }
 
 #winsDisplay, #LossDisplay, #scoreDisplay, #numberDisplay {
-    margin: 40px;
     padding: 20px;
-    background-color: pink;
+    color: #fff;
+    font-size: 2em;
 }
 
 #numberDisplay {
@@ -49,6 +61,14 @@ img {
 
 #scoreDisplay {
     background-color: #9ddeee;
+}
+
+#numberDisplay, #winsDisplay {
+    margin: 40px 10px 40px 40px;
+}
+
+#scoreDisplay, #LossDisplay {
+    margin: 40px 40px 40px 10px;
 }
 
 footer {
@@ -62,4 +82,8 @@ footer {
 
 #LossDisplay {
     background-color: #fbd47f;
+}
+
+.hide {
+    display: hidden;
 }

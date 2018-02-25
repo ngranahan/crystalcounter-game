@@ -22,7 +22,7 @@
         <div class="row">
             <div class="col-sm-12 main-content">
                 <div class="header text-center">
-                    <h1>CRYSTAL CATCHER</h1>
+                    <h1>CRYSTAL COUNTER</h1>
                 </div>
                 <div id="gameInstructions" class="instructions">
                     <h2>Here’s how it works:</h2>
@@ -33,42 +33,42 @@
                         Game” so play until your heart's content.</p>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-primary btn-lg">Play Game</button>
+                    <button id="playGame" class="btn btn-primary btn-lg" value="8">Play Game</button>
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
                         <div id="numberDisplay">
-                            <h2>MATCH THIS:</h2>
-                            <div id="randomNumber"></div>
+                            <h2 class="text-center">MATCH THIS:</h2>
+                            <div id="randomNumber" class="text-center"></div>
                         </div>
                     </div>
 
                     <div class="col-sm-6">
                         <div id="scoreDisplay">
-                            <h2>SCORE:</h2>
-                            <div id="playerScore"></div>
+                            <h2 class="text-center">SCORE:</h2>
+                            <div id="playerScore" class="text-center"></div>
                         </div>
                     </div>
 
                 </div>
                 <div class="crystal-buttons text-center">
-                    <img src="assets/images/lime-crystal.jpg">
-                    <img src="assets/images/blue-crystal.jpg">
-                    <img src="assets/images/teal-crystal.jpg">
-                    <img src="assets/images/orange-crystal.jpg">
+                    <img id="greenCrystal" class="crystal" src="assets/images/lime-crystal.jpg">
+                    <img id="blueCrystal" class="crystal" src="assets/images/blue-crystal.jpg">
+                    <img id="tealCrystal" class="crystal" src="assets/images/teal-crystal.jpg">
+                    <img id="orangeCrystal" class="crystal" src="assets/images/orange-crystal.jpg">
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
                         <div id="winsDisplay">
-                            <h2>WINS:</h2>
-                            <div id="playerWins"></div>
+                            <h2 class="text-center">WINS:</h2>
+                            <div id="playerWins" class="text-center"></div>
                         </div>
                     </div>
 
                     <div class="col-sm-6">
                         <div id="LossDisplay">
-                            <h2>LOSSES:</h2>
-                            <div id="playerLosses"></div>
+                            <h2 class="text-center">LOSSES:</h2>
+                            <div id="playerLosses" class="text-center"></div>
                         </div>
                     </div>
 
