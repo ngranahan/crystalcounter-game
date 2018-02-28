@@ -32,22 +32,22 @@ $(document).ready(function () {
     // })
 
     $("#greenCrystal").on("click", function () {
-        playerScore = playerScore + greenCrystal;
+        playerScore += greenCrystal;
         $("#playerScore").text(playerScore);
         winLoss();
     })
     $("#blueCrystal").on("click", function () {
-        playerScore = playerScore + blueCrystal;
+        playerScore += blueCrystal;
         $("#playerScore").text(playerScore);
         winLoss();
     })
     $("#tealCrystal").on("click", function () {
-        playerScore = playerScore + tealCrystal;
+        playerScore += tealCrystal;
         $("#playerScore").text(playerScore);
         winLoss();
     })
     $("#orangeCrystal").on("click", function () {
-        playerScore = playerScore + orangeCrystal;
+        playerScore += orangeCrystal;
         $("#playerScore").text(playerScore);
         winLoss();
     })
