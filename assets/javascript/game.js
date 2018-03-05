@@ -25,8 +25,15 @@ $(document).ready(function () {
     });
 
     // If time allows, figure out how to use $(this)
+
     // $(this).on("click", function() {
     //     playerScore = playerScore + $(this).val();
+    //     $("#playerScore").text(playerScore);
+    //     winLoss();
+    // })
+
+    // $(".crystal").on("click", function() {
+    //     playerScore += $(this)
     //     $("#playerScore").text(playerScore);
     //     winLoss();
     // })
